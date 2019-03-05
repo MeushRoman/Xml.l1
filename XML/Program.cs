@@ -9,8 +9,12 @@ namespace XML
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            //string str = "1";
+            //int x = Convert.ToInt32(str);
+
             XmlDocument doc = new XmlDocument();
             doc.Load("https://news.rambler.ru/rss/world");
 
